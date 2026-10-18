@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url(images/background_red.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdowns {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.dropdowns h6 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: rgb(185, 184, 184);
+    transform: scaleY(0.5);
+    transform-origin: top;
+    margin: 0;
+}
+
+nav img {
+    width: 40px;
+    height: 40px;
+}
+
+main {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.leftSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.spiderIconsection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+
+.spiderIconsection img {
+    width: 350px;
+    height: auto;
+    margin-left: -40px;
+}
+
+.spiderIconsection P {
+    width: 200px;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 20px;
+}
+
+.spidy {
+    width: 550px;
+    height: auto;
+    align-self: center;
+
+}
+
+.rightection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gameReviewSection {
+    margin-block: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gameReviewSection h5 {
+    text-decoration: underline;
+}
+
+.rateDiv {
+    display: flex;
+    gap: 10px;
+}
+
+.trailer iframe {
+    display: block;
+    width: 280px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border: 0;
+}
+
+.circle,
+.circle1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    background:
+        linear-gradient(#b53038, #b53038) padding-box,
+        conic-gradient(white 99%, grey 0) border-box;
+}
+
+.circle1 {
+    background:
+        linear-gradient(#b53038, #b53038) padding-box,
+        conic-gradient(white 97%, grey 0) border-box;
+}
+
+button {
+    border: none;
+    background-color: aliceblue;
+    color: #b53038;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 20px;
+}
